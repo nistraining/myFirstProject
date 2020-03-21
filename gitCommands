@@ -3,4 +3,12 @@ git config --global user.name "Nisith Panda"
 --create a new repository-----
 mkdir newfolder
 ---Add a remote remote repository-----
-git remote -add sshkeyfortheproject
+git remote add sshkeyfortheproject
+git checkout -b branchname-- creating and checking out to the new beanch
+git add .(adds all the branch to the staging)
+git add filename(add only the file name to the staging)
+git commit -m (changes are commited)
+-----merge--------------
+git checkout master
+git merge branchname--
+
