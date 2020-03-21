@@ -4,3 +4,5 @@ git config --global user.name "Nisith Panda"
 mkdir newfolder
 ---Add a remote remote repository-----
 git remote -add sshkeyfortheproject
+
+git checkout -b branchname
